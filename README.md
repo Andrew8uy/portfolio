@@ -29,7 +29,7 @@ Portafolio personal (ES/EN) — **Backend Developer & Systems Admin**. Sitio est
 
 - **Bilingual ES/EN** with automatic browser detection and `localStorage` persistence.
 - **Dark/Light mode** following `prefers-color-scheme`, persisted in `localStorage`.
-- **Email obfuscation**: the address is assembled at runtime in `js/main.js` so it does not appear as plain text in the HTML source.
+- **Email protection**: the address does not appear in the HTML source nor in the page until you click the contact button; it is assembled on demand in `js/main.js`.
 - **Responsive** layout, no external dependencies or trackers.
 
 ## Run locally / Ejecutar localmente

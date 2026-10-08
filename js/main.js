@@ -29,10 +29,20 @@
 
   function applyEmail() {
     document.querySelectorAll(".js-email").forEach(function (el) {
-      el.setAttribute("href", "mailto:" + EMAIL);
-      if (el.closest(".hero")) {
+      if (el.getAttribute("data-revealed") === "1") {
+        el.setAttribute("href", "mailto:" + EMAIL);
         el.textContent = EMAIL;
       }
+    });
+  }
+
+  function bindEmail(el) {
+    el.addEventListener("click", function (e) {
+      e.preventDefault();
+      el.setAttribute("data-revealed", "1");
+      el.setAttribute("href", "mailto:" + EMAIL);
+      el.textContent = EMAIL;
+      window.location.href = "mailto:" + EMAIL;
     });
   }
 
@@ -60,6 +70,8 @@
 
   var yearEl = document.getElementById("year");
   if (yearEl) { yearEl.textContent = String(new Date().getFullYear()); }
+
+  document.querySelectorAll(".js-email").forEach(bindEmail);
 
   applyLang();
   applyEmail();
