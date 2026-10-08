@@ -1,0 +1,147 @@
+window.I18N = {
+  es: {
+    "lang.toggle": "Cambiar a inglés",
+    "theme.toggle": "Cambiar tema claro/oscuro",
+
+    "nav.about": "Sobre mí",
+    "nav.skills": "Habilidades",
+    "nav.experience": "Experiencia",
+    "nav.education": "Formación",
+    "nav.projects": "Proyectos",
+    "nav.contact": "Contacto",
+
+    "hero.status": "Abierto a oportunidades laborales",
+    "hero.title": "Backend Developer & Systems Admin",
+    "hero.pitch": "Estudiante de Tecnología en Informática (UTEC) enfocado en desarrollo backend y administración de sistemas. Busco mi primera experiencia laboral construyendo o manteniendo software real.",
+    "hero.cv": "Descargar CV",
+    "hero.email": "Email",
+
+    "about.title": "Sobre mí",
+    "about.p1": "Soy un estudiante de UTEC y he realizado muchos proyectos universitarios. Mi deseo actual es trabajar en un proyecto real, ya sea en su desarrollo o su mantenimiento. Siempre estoy dispuesto a aprender y a mejorar constantemente.",
+    "about.p2": "Me interesa combinar el desarrollo backend con la administración de sistemas: me gusta entender no solo cómo se escribe el software, sino también cómo se despliega, se mantiene y se opera en Linux.",
+
+    "skills.title": "Habilidades técnicas",
+    "skills.langs": "Lenguajes",
+    "skills.data": "Datos",
+    "skills.infra": "Infraestructura & Sistemas",
+    "skills.tools": "Herramientas",
+    "skills.networks": "Redes de computadoras",
+
+    "soft.title": "Habilidades blandas y roles",
+    "soft.skills": "Habilidades blandas",
+    "soft.comm": "Comunicación oral y escrita",
+    "soft.assert": "Asertividad",
+    "soft.learn": "Ganas de aprender y mejorar constantemente",
+    "soft.roles": "Roles desempeñados",
+    "soft.role1": "Desarrollador backend en proyectos universitarios",
+    "soft.role2": "Estudiante de Tecnología en Informática (UTEC)",
+    "soft.role3": "Autor y mantenedor de proyectos propios",
+
+    "exp.title": "Experiencia laboral",
+    "exp.status": "En busca de mi primera experiencia laboral.",
+    "exp.note": "Hasta el momento he trabajado en proyectos universitarios de desarrollo backend y administración de sistemas (Linux, Docker, SQL), donde diseñé y mantuve aplicaciones de principio a fin.",
+
+    "edu.title": "Formación, certificaciones e idiomas",
+    "edu.education": "Formación reglada",
+    "edu.utec.name": "Tecnólogo en Informática",
+    "edu.utec.period": "Mar. 2025 – Actualmente",
+    "edu.utec.detail": "Primer, segundo y tercer semestre aprobados.",
+    "edu.bach.name": "Bachillerato de Informática",
+    "edu.bach.period": "Mar. 2022 – Dic. 2024",
+    "edu.bach.detail": "Mi último año tuvo un énfasis en desarrollo web, trabajando con Java, PHP, SQL, Linux, Docker y Git.",
+    "edu.certs": "Cursos y certificaciones",
+    "certs.java.name": "Curso de Programación en Java",
+    "certs.java.detail": "Conceptos básicos de programación aplicados en Java y estructuras de datos.",
+    "certs.ibm.name": "IBM IT Support Professional Certificate",
+    "certs.ibm.detail": "Conceptos básicos de seguridad de redes, nube y software; reparación de hardware y software.",
+    "edu.languages": "Idiomas",
+    "lang.es": "Español",
+    "lang.es.level": "Lengua materna",
+    "lang.en": "Inglés",
+    "lang.en.level": "Intermedio",
+
+    "projects.title": "Proyectos",
+    "projects.soon.title": "Próximamente",
+    "projects.soon.text": "Estoy preparando mis primeros proyectos para publicarlos aquí: backend, infraestructura y automatización. Vuelve pronto.",
+
+    "contact.title": "Contacto",
+    "contact.text": "¿Hablamos? Puedes escribirme por email o encontrarme en estas redes.",
+    "contact.email": "Enviar email",
+
+    "footer.built": "Hecho con HTML, CSS y JavaScript vanilla.",
+    "footer.top": "Volver arriba"
+  },
+
+  en: {
+    "lang.toggle": "Switch to Spanish",
+    "theme.toggle": "Toggle light/dark theme",
+
+    "nav.about": "About",
+    "nav.skills": "Skills",
+    "nav.experience": "Experience",
+    "nav.education": "Education",
+    "nav.projects": "Projects",
+    "nav.contact": "Contact",
+
+    "hero.status": "Open to job opportunities",
+    "hero.title": "Backend Developer & Systems Admin",
+    "hero.pitch": "Information Technology student (UTEC) focused on backend development and systems administration. Looking for my first role building or maintaining real software.",
+    "hero.cv": "Download CV",
+    "hero.email": "Email",
+
+    "about.title": "About me",
+    "about.p1": "I am a UTEC student and I have completed many university projects. What I want now is to work on a real project, whether building or maintaining it. I am always willing to learn and improve.",
+    "about.p2": "I like combining backend development with systems administration: I enjoy understanding not only how software is written, but also how it is deployed, maintained and operated on Linux.",
+
+    "skills.title": "Technical skills",
+    "skills.langs": "Languages",
+    "skills.data": "Data",
+    "skills.infra": "Infrastructure & Systems",
+    "skills.tools": "Tools",
+    "skills.networks": "Computer networks",
+
+    "soft.title": "Soft skills & roles",
+    "soft.skills": "Soft skills",
+    "soft.comm": "Oral and written communication",
+    "soft.assert": "Assertiveness",
+    "soft.learn": "Eager to learn and improve constantly",
+    "soft.roles": "Roles played",
+    "soft.role1": "Backend developer on university projects",
+    "soft.role2": "Information Technology student (UTEC)",
+    "soft.role3": "Author and maintainer of personal projects",
+
+    "exp.title": "Work experience",
+    "exp.status": "Looking for my first professional experience.",
+    "exp.note": "So far I have worked on university projects in backend development and systems administration (Linux, Docker, SQL), where I designed and maintained applications end to end.",
+
+    "edu.title": "Education, certifications & languages",
+    "edu.education": "Formal education",
+    "edu.utec.name": "Technologist in Informatics",
+    "edu.utec.period": "Mar. 2025 – Present",
+    "edu.utec.detail": "First, second and third semesters completed.",
+    "edu.bach.name": "High School Diploma in Informatics",
+    "edu.bach.period": "Mar. 2022 – Dec. 2024",
+    "edu.bach.detail": "My final year focused on web development, working with Java, PHP, SQL, Linux, Docker and Git.",
+    "edu.certs": "Courses & certifications",
+    "certs.java.name": "Java Programming Course",
+    "certs.java.detail": "Basic programming concepts applied in Java and data structures.",
+    "certs.ibm.name": "IBM IT Support Professional Certificate",
+    "certs.ibm.detail": "Basics of network, cloud and software security; hardware and software repair.",
+    "edu.languages": "Languages",
+    "lang.es": "Spanish",
+    "lang.es.level": "Native",
+    "lang.en": "English",
+    "lang.en.level": "Intermediate",
+
+    "projects.title": "Projects",
+    "projects.soon.title": "Coming soon",
+    "projects.soon.text": "I am preparing my first projects to publish here: backend, infrastructure and automation. Check back soon.",
+
+    "contact.title": "Contact",
+    "contact.text": "Shall we talk? You can email me or find me on these networks.",
+    "contact.email": "Send email",
+
+    "footer.built": "Built with vanilla HTML, CSS and JavaScript.",
+    "footer.top": "Back to top"
+  }
+};

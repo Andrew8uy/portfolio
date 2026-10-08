@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Andrés Bernabé Rodríguez Mori — Backend Developer & Systems Admin. Portafolio de desarrollo backend y administración de sistemas.">
+  <meta name="color-scheme" content="light dark">
+  <title>Andrés Bernabé Rodríguez Mori — Backend Developer & Systems Admin</title>
+  <script>
+    (function () {
+      var t = localStorage.getItem("theme");
+      if (!t) { t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; }
+      document.documentElement.setAttribute("data-theme", t);
+      var l = localStorage.getItem("lang");
+      if (l) { document.documentElement.setAttribute("lang", l); }
+    })();
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/i18n.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#top">ARM</a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#about" data-i18n="nav.about">Sobre mí</a>
+        <a href="#skills" data-i18n="nav.skills">Habilidades</a>
+        <a href="#experience" data-i18n="nav.experience">Experiencia</a>
+        <a href="#education" data-i18n="nav.education">Formación</a>
+        <a href="#projects" data-i18n="nav.projects">Proyectos</a>
+        <a href="#contact" data-i18n="nav.contact">Contacto</a>
+      </nav>
+      <div class="header-actions">
+        <button id="lang-toggle" type="button" class="icon-btn text-btn" data-i18n-aria="lang.toggle" aria-label="Cambiar idioma">EN</button>
+        <button id="theme-toggle" type="button" class="icon-btn" data-i18n-aria="theme.toggle" aria-label="Cambiar tema">
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container">
+        <p class="hero-status" data-i18n="hero.status">Abierto a oportunidades laborales</p>
+        <h1 class="hero-name">Andrés Bernabé Rodríguez Mori</h1>
+        <p class="hero-title" data-i18n="hero.title">Backend Developer &amp; Systems Admin</p>
+        <p class="hero-pitch" data-i18n="hero.pitch">Estudiante de Tecnología en Informática (UTEC) enfocado en desarrollo backend y administración de sistemas. Busco mi primera experiencia laboral construyendo o manteniendo software real.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="assets/cv/CV-Andres-Mori.pdf" download data-i18n="hero.cv">Descargar CV</a>
+          <a class="btn" href="https://github.com/Andrew8uy" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/andr%C3%A9s-bernab%C3%A9-rodr%C3%ADguez-mori-7572a5357/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a class="btn js-email" href="#" data-i18n="hero.email">Email</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="about.title">Sobre mí</h2>
+        <div class="prose">
+          <p data-i18n="about.p1">Soy un estudiante de UTEC y he realizado muchos proyectos universitarios. Mi deseo actual es trabajar en un proyecto real, ya sea en su desarrollo o su mantenimiento. Siempre estoy dispuesto a aprender y a mejorar constantemente.</p>
+          <p data-i18n="about.p2">Me interesa combinar el desarrollo backend con la administración de sistemas: me gusta entender no solo cómo se escribe el software, sino también cómo se despliega, se mantiene y se opera en Linux.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title" data-i18n="skills.title">Habilidades técnicas</h2>
+        <div class="skill-grid">
+          <div class="skill-card">
+            <h3 data-i18n="skills.langs">Lenguajes</h3>
+            <ul class="chips">
+              <li>Java</li><li>PHP</li><li>Python</li><li>Bash</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3 data-i18n="skills.data">Datos</h3>
+            <ul class="chips">
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3 data-i18n="skills.infra">Infraestructura &amp; Sistemas</h3>
+            <ul class="chips">
+              <li>Linux</li><li>Docker</li><li data-i18n="skills.networks">Redes de computadoras</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3 data-i18n="skills.tools">Herramientas</h3>
+            <ul class="chips">
+              <li>Git</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="softskills" class="section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="soft.title">Habilidades blandas y roles</h2>
+        <div class="split">
+          <div>
+            <h3 class="sub-title" data-i18n="soft.skills">Habilidades blandas</h3>
+            <ul class="plain-list">
+              <li data-i18n="soft.comm">Comunicación oral y escrita</li>
+              <li data-i18n="soft.assert">Asertividad</li>
+              <li data-i18n="soft.learn">Ganas de aprender y mejorar constantemente</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="sub-title" data-i18n="soft.roles">Roles desempeñados</h3>
+            <ul class="plain-list">
+              <li data-i18n="soft.role1">Desarrollador backend en proyectos universitarios</li>
+              <li data-i18n="soft.role2">Estudiante de Tecnología en Informática (UTEC)</li>
+              <li data-i18n="soft.role3">Autor y mantenedor de proyectos propios</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title" data-i18n="exp.title">Experiencia laboral</h2>
+        <div class="card">
+          <p class="card-lead" data-i18n="exp.status">En busca de mi primera experiencia laboral.</p>
+          <p class="muted" data-i18n="exp.note">Hasta el momento he trabajado en proyectos universitarios de desarrollo backend y administración de sistemas (Linux, Docker, SQL), donde diseñé y mantuve aplicaciones de principio a fin.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="edu.title">Formación, certificaciones e idiomas</h2>
+
+        <h3 class="sub-title" data-i18n="edu.education">Formación reglada</h3>
+        <div class="timeline">
+          <article class="card">
+            <div class="card-head">
+              <h4 data-i18n="edu.utec.name">Tecnólogo en Informática</h4>
+              <span class="badge" data-i18n="edu.utec.period">Mar. 2025 – Actualmente</span>
+            </div>
+            <p class="card-sub">UTEC — San José de Mayo, Uruguay</p>
+            <p class="muted" data-i18n="edu.utec.detail">Primer, segundo y tercer semestre aprobados.</p>
+          </article>
+          <article class="card">
+            <div class="card-head">
+              <h4 data-i18n="edu.bach.name">Bachillerato de Informática</h4>
+              <span class="badge" data-i18n="edu.bach.period">Mar. 2022 – Dic. 2024</span>
+            </div>
+            <p class="card-sub">Escuela Técnica “María Espínola Espínola” — San José de Mayo, Uruguay</p>
+            <p class="muted" data-i18n="edu.bach.detail">Mi último año tuvo un énfasis en desarrollo web, trabajando con Java, PHP, SQL, Linux, Docker y Git.</p>
+          </article>
+        </div>
+
+        <h3 class="sub-title" data-i18n="edu.certs">Cursos y certificaciones</h3>
+        <div class="timeline">
+          <article class="card">
+            <div class="card-head">
+              <h4 data-i18n="certs.java.name">Curso de Programación en Java</h4>
+              <span class="badge">2025</span>
+            </div>
+            <p class="card-sub">Politécnico de Colombia — 120 horas impartidas</p>
+            <p class="muted" data-i18n="certs.java.detail">Conceptos básicos de programación aplicados en Java y estructuras de datos.</p>
+          </article>
+          <article class="card">
+            <div class="card-head">
+              <h4 data-i18n="certs.ibm.name">IBM IT Support Professional Certificate</h4>
+              <span class="badge">2026</span>
+            </div>
+            <p class="card-sub">Coursera — 10 horas de dedicación semanal durante tres meses</p>
+            <p class="muted" data-i18n="certs.ibm.detail">Conceptos básicos de seguridad de redes, nube y software; reparación de hardware y software.</p>
+          </article>
+        </div>
+
+        <h3 class="sub-title" data-i18n="edu.languages">Idiomas</h3>
+        <ul class="chips chips-lg">
+          <li><strong data-i18n="lang.es">Español</strong>&nbsp;—&nbsp;<span data-i18n="lang.es.level">Lengua materna</span></li>
+          <li><strong data-i18n="lang.en">Inglés</strong>&nbsp;—&nbsp;<span data-i18n="lang.en.level">Intermedio</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title" data-i18n="projects.title">Proyectos</h2>
+        <div class="card card-soon">
+          <h3 data-i18n="projects.soon.title">Próximamente</h3>
+          <p class="muted" data-i18n="projects.soon.text">Estoy preparando mis primeros proyectos para publicarlos aquí: backend, infraestructura y automatización. Vuelve pronto.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="contact.title">Contacto</h2>
+        <p class="prose" data-i18n="contact.text">¿Hablamos? Puedes escribirme por email o encontrarme en estas redes.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary js-email" href="#" data-i18n="contact.email">Enviar email</a>
+          <a class="btn" href="https://github.com/Andrew8uy" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/andr%C3%A9s-bernab%C3%A9-rodr%C3%ADguez-mori-7572a5357/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a class="btn" href="assets/cv/CV-Andres-Mori.pdf" download data-i18n="hero.cv">Descargar CV</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p><span data-i18n="footer.built">Hecho con HTML, CSS y JavaScript vanilla.</span> © <span id="year">2026</span> Andrés Bernabé Rodríguez Mori</p>
+      <a href="#top" class="to-top" data-i18n="footer.top">Volver arriba</a>
+    </div>
+  </footer>
+</body>
+</html>
