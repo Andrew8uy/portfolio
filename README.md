@@ -1,38 +1,34 @@
 # Portfolio — Andrés Bernabé Rodríguez Mori
 
+[Español](README.es.md)
+
 Personal portfolio (ES/EN) — **Backend Developer & Systems Admin**. Static site built with vanilla HTML, CSS and JavaScript, no build step required.
 
-Portafolio personal (ES/EN) — **Backend Developer & Systems Admin**. Sitio estático hecho con HTML, CSS y JavaScript vanilla, sin paso de build.
+## About me
 
-**EN:** [About](#about-me--sobre-mí) · [Sections](#sections--secciones) · [Run locally](#run-locally--ejecutar-localmente)
-**ES:** [Sobre mí](#about-me--sobre-mí) · [Secciones](#sections--secciones) · [Ejecutar](#run-locally--ejecutar-localmente)
+Showcase of my backend development and systems administration skills: technical stack, education, certifications, languages and (soon) projects.
 
-## About me / Sobre mí
+## Sections
 
-- **EN:** Showcase of my backend development and systems administration skills: technical stack, education, certifications, languages and (soon) projects.
-- **ES:** Muestra de mis conocimientos en desarrollo backend y administración de sistemas: stack técnico, formación, certificaciones, idiomas y (próximamente) proyectos.
-
-## Sections / Secciones
-
-| Section / Sección | Content / Contenido |
+| Section | Content |
 | --- | --- |
 | Hero | Name, main skill, CV download, GitHub, LinkedIn, email |
-| About / Sobre mí | Professional profile |
-| Skills / Habilidades | Languages, data, infrastructure & systems, tools |
-| Soft skills & roles / Habilidades blandas y roles | Communication, assertiveness, roles |
-| Experience / Experiencia | Current status |
-| Education / Formación | Formal education, certifications, languages |
-| Projects / Proyectos | Placeholder until real projects land |
-| Contact / Contacto | Email, GitHub, LinkedIn |
+| About | Professional profile |
+| Skills | Languages, data, infrastructure & systems, tools |
+| Soft skills & roles | Communication, assertiveness, roles |
+| Experience | Current status |
+| Education | Formal education, certifications, languages |
+| Projects | Placeholder until real projects land |
+| Contact | Email, GitHub, LinkedIn |
 
-## Features / Funcionalidades
+## Features
 
 - **Bilingual ES/EN** with automatic browser detection and `localStorage` persistence.
 - **Dark/Light mode** following `prefers-color-scheme`, persisted in `localStorage`.
 - **Email protection**: the address does not appear in the HTML source nor in the page until you click the contact button; it is assembled on demand in `js/main.js`.
 - **Responsive** layout, no external dependencies or trackers.
 
-## Run locally / Ejecutar localmente
+## Run locally
 
 ```bash
 git clone https://github.com/Andrew8uy/portfolio.git
@@ -42,9 +38,7 @@ python -m http.server 8000
 
 Open <http://localhost:8000>. Or simply open `index.html` in your browser.
 
-Abre <http://localhost:8000>, o abre directamente `index.html` en tu navegador.
-
-## Structure / Estructura
+## Structure
 
 ```
 index.html        # single page, all sections
@@ -54,7 +48,6 @@ js/main.js        # language switch, theme switch, email assembly
 assets/cv/        # CV (PDF)
 ```
 
-## Deploy / Despliegue
+## Deploy
 
-Published with **GitHub Pages** from the `main` branch (root).
-Desplegado con **GitHub Pages** desde la rama `main` (raíz).
+Published with **GitHub Pages** from the `main` branch (root): <https://andrew8uy.github.io/portfolio/>
