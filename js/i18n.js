@@ -68,7 +68,6 @@ window.I18N = {
     "contact.text": "¿Hablamos? Puedes escribirme por email o encontrarme en estas redes.",
     "contact.email": "Enviar email",
 
-    "footer.built": "Hecho con HTML, CSS y JavaScript vanilla.",
     "footer.top": "Volver arriba"
   },
 
@@ -141,7 +140,6 @@ window.I18N = {
     "contact.text": "Shall we talk? You can email me or find me on these networks.",
     "contact.email": "Send email",
 
-    "footer.built": "Built with vanilla HTML, CSS and JavaScript.",
     "footer.top": "Back to top"
   }
 };
